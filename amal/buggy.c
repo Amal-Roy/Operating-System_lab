@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    int a = 5, b = 0;
+    int c = a / b;  // Division by zero
+    printf("Result = %d\n", c);
+    return 0;
+}
